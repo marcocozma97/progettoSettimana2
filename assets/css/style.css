@@ -53,11 +53,11 @@ FOOTER: #232F3E
 /* Stili dell'header */
 
 header {
-    position: fixed;  
-    top: 0;          
-    left: 0;          
-    width: 100%;     
-    z-index: 9999;     
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 
@@ -84,7 +84,7 @@ header .amazon-barra {
 }
 
 .barra-ricerca {
-    width: 55%;
+    width: 60%;
     padding: 10px;
     border-radius: 4px 0 0 4px;
     margin-right: 10px;
@@ -95,8 +95,10 @@ header .amazon-barra {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 8px;
-    padding-right:0px;
+    padding-right: 0px;
     border: none;
+    color: black;
+    font-weight: bold;
     border-radius: 4px 0 0 4px;
 }
 
@@ -114,29 +116,42 @@ header .amazon-barra {
 }
 
 .link-nav {
-  margin: 0 2px;
+    margin: 0 2px;
 }
 
 .link-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-  margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
 }
+
 .carrello {
-  background-color: #303F51;
-  padding: 8px 15px;
-  border-radius: 4px;
+    background-color: #303F51;
+    padding: 8px 15px;
+    border-radius: 4px;
 }
 
 .carrello a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
 main {
-    /* Il margine deve essere uguale o superiore all'altezza della tua navbar */
-    margin-top: 60px; 
+    margin-top: 60px;
+}
+
+main .hero {
+    background-color: #303F51;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+    font-size: 22px;
+}
+
+main .hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
 }
