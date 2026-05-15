@@ -137,11 +137,38 @@ console.log("Monitor: " + formattaPrezzo(199.99));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const stelline = function (rating) {
+   let stelle = "";
+   for (let i = 0; i < 5; i++) {
+      if (i < rating) {
+         stelle += "★";
+      } else {
+         stelle += "☆";
+      }
+   }
+   return stelle;
+}
+
+console.log("Monitor: rating " + 3 + " → " + stelline(3));
+
+
 /* VERSIONE INTERMEDIA — Filtro per categoria
    Funzione che riceve il parametro categoria e filtra l'array prodotti mostrando solo i prodotti della categoria ricevuta
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const filtraPerCategoria = function (categoria) {
+   const prodottiFiltrati = [];
+   for (let i = 0; i < prodotti.length; i++) {
+      if (prodotti[i].categoria === categoria) {
+         prodottiFiltrati.push(prodotti[i]);
+      }
+   }
+   return prodottiFiltrati;
+};
+
+console.log(filtraPerCategoria("Elettronica"));
 
 /* VERSIONE INTERMEDIA — Filtro disponibilità e rating
    Funzione che genera un array filtrato dall'array prodotti, mostrando soltanto i prodotti disponibili con rating >= 3
