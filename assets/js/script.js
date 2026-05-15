@@ -11,11 +11,30 @@ REGOLE
 
 /* VERSIONE INTERMEDIA — array prodotti
    Crea l'array "prodotti" con almeno 12 oggetti.
+   cuffie, monitor, mouse, tastiera, smartphone, tablet, tappetino, webcam, chiavetta USB, hard disk, stampante, router.  
    Ogni oggetto: nome, categoria, prezzo, rating (1-5), immagine, disponibile.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const prodotti = [
+    {
+        nome: "Cuffie",
+        categoria: "Elettronica",
+        prezzo: 99.99,
+        rating: 4,
+        immagine: "cuffie.jpg",
+        disponibile: true
+    }
+    {
+        nome: "Monitor",
+        categoria: "Elettronica",
+        prezzo: 199.99,
+        rating: 5
+        immagine: "Monitor.jpg",
+        disponibile: true
+    }
+];
 
 /* VERSIONE INTERMEDIA — formattaPrezzo(prezzo)
    Funzione che ritorna una stringa tipo "€ 19,99".
