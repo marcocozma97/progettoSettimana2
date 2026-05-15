@@ -8,10 +8,10 @@
 </head>
 <body>
     /* Header 
-        con con uno sfondo scuro 
+        con con uno sfondo scuro  (HEADER: #131921)
         A sinistra logo amazon (o scritta)
         Dopo un lungo input text dove scrivere per la ricerca (placeholder = Cerca prodotti,categorie,brand ...)
-        Attaccato a destra del input text un bottone con scritto "Cerca"
+        Attaccato a destra del input text un bottone con scritto "Cerca"  (PULSANTE CERCA: #FEBD69)
         Staccato a destra del bottone "Cerca" due scritte "Account" e "Ordini"
         Infine a destra scritto "Carrello" con fra parentesi numero 0 e uno sfondo blu piu chiaro del header
         tutto cliccabile quindi è un navbar
@@ -23,19 +23,27 @@
 
     </header>
 
-    /* Hero 
+    /* Main Content General 
+        IL main è tutto centrato.
+        Diviso in 3 sezioni, un hero e due categorie una sopra l'altra, contenenti entrambe delle card prodotto.
+    */
+
+    <main>
+
+
+    /* Hero Section 
         con un colore di sfondo che occupa tutta la larghezza del sito e un'altezza di ?px
         Due scritte al centro del hero, una sopra l'altra, centrate sia verticalmente che orizzontalmente
         Scritta grande "Le offerte di oggi" in bianco e in grassetto
         Scritta più piccola sotto "Sconti fino al 70% su elettronica,casa e molto altro" in bianco e normale
     */
-    <hero>
-         
-    </hero>
+    <section class="hero">
 
-    /* Main
-        IL main è tutto centrato.
-        Diviso in 2 sezioni, una sopra l'altra, contenenti entrambe delle card prodotto.
+    </section>
+
+    
+
+    /* Section CATEGORIE
 
         La prima ha un titolo "Categorie" in grassetto.
         Le card sono orizzontali qui.
@@ -48,6 +56,12 @@
         Comportamenti quando ci passo sopra con il mouse (effetto hover):
         - Scopri di più diventa da verde/blu a arancione (vedi colori su discord);
         - Le card sembrano alzarsi, ma in realtà solo leggera ombra sotto e spostamento verso l'alto di 5px
+        */
+        <section class="categorie">
+
+        </section>
+
+        /* Section PRODOTTI
 
         La seconda sezione ha un titolo "I più venduti" in grassetto.
         Sotto ci sono 8 card prodotto, disposte in 4 card per fila, con due file.
@@ -61,10 +75,13 @@
 
         Comportamenti quando ci passo sopra con il mouse (effetto hover):
         - Il bottone aggiungi al carrello diventa di un giallo più scuro 
-    */
-    <main>
+        */
 
-    </main>
+        <section class="prodotti">
+
+        </section>
+
+   </main>
 
     /* Footer 
 
@@ -89,6 +106,11 @@
         Facebook , Instagram , Youtube (cliccabili)
     
     */
+    
+    <footer>
+
+    </footer>
+
    <script src="assets/js/script.js"></script> 
 </body>
 </html>
