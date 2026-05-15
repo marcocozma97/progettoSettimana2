@@ -1,32 +1,127 @@
 /* CSS reset minimo */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  color: #111;
-  background: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #111;
+    background: #fff;
 }
 
 img {
-  max-width: 100%;
-  display: block;
+    max-width: 100%;
+    display: block;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 button {
-  font-family: inherit;
-  cursor: pointer;
-  border: none;
-  background: none;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
 }
 
 /* Scrivi qui sotto i tuoi stili */
+
+/* colori generali pagina html 
+HEADER: #131921
+PULSANTE CERCA: #FEBD69
+PULSANTE CARRELLO: #232F3E
+HERO SECTION: #303F51
+ELETTRONICA: #232F3E
+LIBRI: #C45500
+ABBIGLIAMENTO: #146EB4
+CASA: #067D62
+SCOPRI DI PIÙ: #007185
+HOVER SCOPRI DI PIÙ: #c45500
+SCRITTE NELLE CARD: #EEEEEE
+STELLINE (sia piene che vuote): #FF9900
+AGGIUNGI AL CARRELLO: #FFD814
+HOVER AGGIUNGI AL CARRELLO: #F7CA00
+FOOTER: #232F3E
+
+*/
+
+/* Stili dell'header */
+
+header .amazon-barra {
+    background-color: #131921;
+    color: white;
+    white-space: nowrap;
+    padding: 5px 20px;
+}
+
+.logo,
+.barra-ricerca,
+.link-nav,
+.carrello {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #FF9900;
+}
+
+.barra-ricerca {
+    width: 55%;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+    margin-right: 10px;
+}
+
+.barra-ricerca input {
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right:0px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.barra-ricerca button {
+    width: 20%;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 0px;
+    margin-left: -6px;
+    background-color: #FEBD69;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.link-nav {
+  margin: 0 2px;
+}
+
+.link-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.carrello {
+  background-color: #303F51;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+.carrello a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
