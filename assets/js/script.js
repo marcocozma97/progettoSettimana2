@@ -176,6 +176,20 @@ console.log(filtraPerCategoria("Elettronica"));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const disponibiliteRating = function(prodotti2) {
+   const prodottiBuoniPresenti = [];
+   const prodottiFiltrati = filtraPerCategoria("Elettronica");
+   const disponibile = true;
+    for (i=0; i < prodottiFiltrati.length; i++) {
+      if (prodottiFiltrati[i].disponibile === disponibile && prodottiFiltrati[i].rating >= 3) {
+         prodottiBuoniPresenti.push(prodottiFiltrati[i]);
+      }
+    }
+    return prodottiBuoniPresenti;
+}
+
+console.log(disponibiliteRating());
+
 /* --------------------------------------------------------------
 
 /* VERSIONE AVANZATA — renderProdotti(lista)
