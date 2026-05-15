@@ -11,7 +11,6 @@ REGOLE
 
 /* VERSIONE INTERMEDIA — array prodotti
    Crea l'array "prodotti" con almeno 12 oggetti.
-   cuffie, monitor, mouse, tastiera, smartphone, tablet, tappetino, webcam, chiavetta USB, hard disk, stampante, router.  
    Ogni oggetto: nome, categoria, prezzo, rating (1-5), immagine, disponibile.
 */
 
@@ -25,13 +24,93 @@ const prodotti = [
         rating: 4,
         immagine: "cuffie.jpg",
         disponibile: true
-    }
+    },
     {
         nome: "Monitor",
         categoria: "Elettronica",
         prezzo: 199.99,
-        rating: 5
-        immagine: "Monitor.jpg",
+        rating: 5,
+        immagine: "monitor.jpg",
+        disponibile: false
+    },
+      {
+        nome: "Mouse",
+        categoria: "Elettronica",
+        prezzo: 29.99,
+        rating: 3,
+        immagine: "mouse.jpg",
+        disponibile: true
+    },
+      {
+        nome: "Tastiera",
+        categoria: "Elettronica",
+        prezzo: 59.00,
+        rating: 3,
+        immagine: "tastiera.jpg",
+        disponibile: true
+    },
+      {
+        nome: "Smartphone",
+        categoria: "Elettronica",
+        prezzo: 499.99,
+        rating: 4,
+        immagine: "smartphone.jpg",
+        disponibile: true
+    },
+      {
+        nome: "Tablet",
+        categoria: "Elettronica",
+        prezzo: 169.90,
+        rating: 3,
+        immagine: "tablet.jpg",
+        disponibile: true
+    },
+      {
+        nome: "Tappetino",
+        categoria: "Accessori",
+        prezzo: 19.99,
+        rating: 4,
+        immagine: "tappetino.jpg",
+        disponibile: false
+    },
+      {
+        nome: "Webcam",
+        categoria: "Elettronica",
+        prezzo: 129.99,
+        rating: 5,
+        immagine: "webcam.jpg",
+        disponibile: false
+    },
+      {
+        nome: "Chiavetta USB",
+        categoria: "Elettronica",
+        prezzo: 9.99,
+        rating: 2,
+        immagine: "chiavetta.jpg",
+        disponibile: true
+    },
+      {
+        nome: "Hard Disk",
+        categoria: "Elettronica",
+        prezzo: 79.99,
+        rating: 4,
+        immagine: "hard-disk.jpg",
+        disponibile: false
+    },
+      {
+        nome: "Stampante",
+        categoria: "Elettronica",
+        prezzo: 119.99,
+        rating: 3,
+        immagine: "stampante.jpg",
+        disponibile: true
+    },
+      {
+        nome: "Casse",
+        categoria: "Elettronica",
+        prezzo: 49.50,
+        rating: 3,
+        immagine: "casse.jpg",
         disponibile: true
     }
 ];
