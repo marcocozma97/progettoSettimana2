@@ -155,3 +155,62 @@ main .hero h2 {
     font-size: 40px;
     margin-bottom: 20px;
 }
+
+.categorie {
+    padding-left: 50px;     
+    padding-top: 40px;      
+    background-color: #ffffff; 
+}
+
+#categorie-header h3 {
+    margin-bottom: 30px;  
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-categoria-1, .card-categoria-2, .card-categoria-3, .card-categoria-4 {
+    display: inline-block;
+    width: 22%;
+    margin-right: 20px;   
+    background-color: white;
+    vertical-align: top;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-radius: 5px;
+}
+
+.card-categoria-1:hover, .card-categoria-2:hover, .card-categoria-3:hover, .card-categoria-4:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+}
+
+.elettronica-rettangolo, .libri-rettangolo, .abbigliamento-rettangolo, .casa-rettangolo {
+    height: 150px;          
+    text-align: center;
+    border-radius: 5px 5px 0 0; 
+}
+
+.elettronica-rettangolo h2, .libri-rettangolo h2, .abbigliamento-rettangolo h2, .casa-rettangolo h2 {
+    color: white;
+    margin: 0;
+    line-height: 150px;    
+    font-size: 40px;
+}
+
+.elettronica-rettangolo { background-color: #232F3E; }
+.libri-rettangolo { background-color: #C45500; }
+.abbigliamento-rettangolo { background-color: #146EB4; }
+.casa-rettangolo { background-color: #067D62; }
+
+.elettronica-scritte, .libri-scritte, .abbigliamento-scritte, .casa-scritte {
+    padding: 15px;
+}
+
+.elettronica-scritte a, .libri-scritte a, .abbigliamento-scritte a, .casa-scritte a {
+    color: #007185;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.elettronica-scritte a:hover, .libri-scritte a:hover, .abbigliamento-scritte a:hover, .casa-scritte a:hover {
+    color: #c45500;
+}
